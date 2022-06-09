@@ -17,10 +17,15 @@ public class datenbankzugriff {
 
         personen.executeStatement(sql3);
 
+
+
+
+
+
         String test = new String("d");
 
 
-        for (int y = 0; y < personen.getCurrentQueryResult().getRowCount(); y++)
+        for (int y = 0; y < personen.getCurrentQueryResult().getRowCount() y++)
         {
             for (int x = 0; x < personen.getCurrentQueryResult().getColumnCount(); x++)
             {
